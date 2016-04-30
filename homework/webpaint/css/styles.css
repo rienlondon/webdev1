@@ -1,0 +1,422 @@
+body {
+	margin: 0;
+}
+
+#container {
+ 	width: 1110px;
+ 	height: 2030px;
+ 	margin: auto;
+ 	margin-top: -16px;
+}
+
+#header-bg {
+	height: 496px;
+    list-style: none;
+    background-color: #2a2a2a;
+    text-align: right;
+    margin: 0;
+    margin-top: -16px;
+}
+
+#logo {
+	position: absolute; 
+	top: 25pt; 
+	left: 190pt;
+}
+
+#menu {
+	background-color: #262626;
+	height: 100px;
+	margin-top: 16px;	
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu ul {
+	 margin-right: 244px;
+}
+
+#menu a {
+    font-family: "lato-black";
+    font-size: 13px;
+    color: #d9d9d9; 
+    display: inline-block;
+    padding: 22px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#menu a:link {
+    color: #d9d9d9;
+}
+
+#menu a:visited {
+    color: #d9d9d9;
+}
+
+#menu a:hover {
+    color: #ff6760;
+}
+
+#menu a:active {
+    color: #d9d9d9;
+}
+
+.slider-text {
+	font-family: "lato-light";
+    font-size: 60px;
+	color: #d9d9d9;
+	width: 1063px;
+	margin-top: -710px;
+	text-align: center;
+}
+
+.slider-text b {
+	font-family: "lato-black"; 
+}
+
+.slider-text2 {
+	font-family: "lato-light";
+    font-size: 40px;
+	color: #d9d9d9;
+	width: 1030px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.slider-text2 a {
+    font-family: "lato-light-italic";
+}
+
+.button {
+	background-color: #ff6760;
+	border-radius: 5px;
+	height: 51px;
+	margin: 0 auto;
+	margin-top: 45px;
+	padding-top: 0px; 
+	width: 198px;
+}
+
+.see-portfolio {
+	color: #ffffff;
+	font-family: "lato-black";
+	font-size: 14px;
+	margin-top: -35px;
+	text-align: center;	
+}
+
+#services-bg {
+	background-color: #f8f8f8;
+	height: 367px;
+    margin: 0;
+    margin-top: 390px;
+}
+
+#services {
+	margin-top: 120px;
+	height: 180px;	
+}
+
+.serviceI {
+	font-family: "lato-regular";
+	font-size: 13px;
+	letter-spacing: 0.6px;
+	line-height: 1.7;
+	width: 270px;
+	height: 188px;
+	color: #616161;
+	text-align: center;
+	float: left;
+	padding: 25px;
+}
+
+.serviceI a {
+	font-family: "lato-black";
+	font-size: 18px;
+}
+
+.serviceII {
+	font-family: "lato-regular";
+	font-size: 13px;
+	letter-spacing: 0.6px;
+	line-height: 1.7;
+	width: 270px;
+	margin-top: 3px;
+	height: 188px;
+	color: #616161;
+	text-align: center;
+	float: left;
+	padding: 24px;
+}
+
+.serviceII a {
+	font-family: "lato-black";
+	font-size: 18px;
+}
+
+.serviceIII {
+	font-family: "lato-regular";
+	font-size: 13px;
+	letter-spacing: 0.6px;
+	line-height: 1.7;
+	width: 280px;
+	margin-top: 6px;
+	height: 188px;
+	color: #616161;
+	text-align: center;
+	float: left;
+	padding: 22px;
+}
+
+.serviceIII a {
+	font-family: "lato-black";
+	font-size: 18px;
+}
+
+.serviceIV {
+	font-family: "lato-regular";
+	font-size: 13px;
+	letter-spacing: 0.6px;
+	line-height: 1.7;
+	width: 270px;
+	margin-top: 3px;
+	height: 188px;
+	color: #616161;
+	text-align: center;
+	float: right;
+	padding: 20px;
+}
+
+.serviceIV a {
+	font-family: "lato-black";
+	font-size: 18px;
+}
+
+#featuredworks {
+	font-family: "lato-black";
+	font-size: 30px;
+	color: #616161;
+	margin-top: 195px;
+	text-align: center;
+}
+
+#featuredworks p {
+	font-family: "lato-light";
+	font-size: 20px;
+	color: #616161;
+}
+
+.filter {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 40%;
+}
+
+.filter-text {
+    font-family: "Lato";
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+}
+
+.filter li {
+	display: inline;
+}
+
+.filter a {
+	text-decoration: none;
+}
+
+.shape22 {
+	background-color: #595959;
+	border-radius: 5px;
+    width: 60px;
+    height: 35px;
+    float: left;
+    margin: 0 0 5px 5px;
+}
+
+.shape22 a {
+	color: #ffffff;
+	font-family: "Lato";
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 2.6;
+    text-align: center;
+}
+
+.shape23 {
+	background-color: #ff6760;
+	border-radius: 5px;
+    width: 96px;
+    height: 35px;
+    float: left;
+    margin: 0 0 5px 5px;
+}
+
+.shape23 a {
+	color: #ffffff;
+	font-family: "Lato";
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 2.6;
+    text-align: center;
+}
+
+.shape24 {
+	background-color: #ff6760;
+	border-radius: 5px;
+    width: 127px;
+    height: 35px;
+    float: left;
+    margin: 0 0 5px 5px;
+}
+
+.shape24 a {
+	color: #ffffff;
+	font-family: "Lato";
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 2.6;
+    text-align: center;
+}
+
+.shape25 {
+	background-color: #ff6760;
+	border-radius: 5px;
+    width: 96px;
+    height: 35px;
+    float: left;
+    margin: 0 0 5px 5px;
+}
+
+.shape25 a {
+	color: #ffffff;
+	font-family: "Lato";
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 2.6;
+    text-align: center;
+}
+
+.thumbnails {
+	text-align: center;
+	margin-top: 110px;
+	width: 1110px;
+}
+
+.shape1 {
+	float: left;
+}
+
+.shape2 {
+	float: left;
+	margin: 0 0 8px 8px;
+}
+
+.shape3 {
+	float: left;
+	margin: 0 0 8px 8px;
+}
+
+.shape4 {
+	float: left;
+	margin: 0 0 8px 8px;
+}
+
+.shape5 {
+	float: left;	
+}
+
+.shape6 {
+	float: left;
+	margin: 0 0 8px 8px;
+}
+
+.shape7 {
+	float: left;
+	margin: 0 0 8px 8px;
+}
+
+.shape8 {
+	float: left;
+	margin: 0 0 8px 8px;
+}
+
+.shape9 {
+	float: left;	
+}
+
+.shape10 {
+	float: left;
+	margin: 0 0 8px 8px;
+}
+
+.shape11 {
+	float: left;
+	margin: 0 0 8px 8px;
+}
+
+.shape12 {
+	float: left;
+	margin: 0 0 8px 8px;
+}
+
+#footer {
+	background-color: #313131;
+	height: 287px;
+	margin: 0;
+	margin-top: -320px;
+}
+
+.getintouch {
+	color: #e0e0e0;
+	font-family: "lato-black";
+	font-size: 30px;
+	margin-top: -240px;
+	text-align: center;
+}
+
+.footer-text {
+    color: #bebebe;
+	font-family: "lato-light";
+	font-size: 20px;
+	margin-top: 18px;
+	text-align: center;
+}
+
+.moonshine {
+	color: #bebebe;
+	font-family: "lato-regular";
+	font-size: 14px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+#social-icons {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#copyright {
+	background-color: #2c2c2c;
+	height: 82px;
+	margin: 0;
+	margin-top: 50px;
+}
+
+.copyright-text {
+	color: #bebebe;
+	font-family: "lato-regular";
+	font-size: 14px;
+	text-align: center;
+	margin-top: -48px;
+}

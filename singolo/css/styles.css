@@ -85,6 +85,7 @@ nav a:active {
 
 .chev2 {
 	float: right;
+	margin-top: -45px;
 	padding: 0px 50px 0px 0px;
 }
 
@@ -395,25 +396,50 @@ nav a:active {
 }
 
 .contact_info {
-   float: left;
-   width: 300px;
-   height: 375px;
-   margin-top: 20px;
+   float: right;
+   width: 310px;
+   height: 275px;
+   margin-top: -395px;
+   margin-right: 30px;   
 }
 
 .contact {
-   font-family: "lato-black">
+   font-family: "lato-black";
    font-size: 18px;
    color: #f0d8d9;
    float: left;
+   margin-top: -50px;
 }
 
 .quisque {
-   font-family: "lato">
+   font-family: "lato";
+   font-size: 12px;
+   line-height: 25px;
+   color: #f0d8d9;
+   float: right;
+   margin-top: -35px;
+}
+
+.address {
+   font-family: "lato";
    font-size: 12px;
    color: #f0d8d9;
+   width: 150px;
+   margin-right: 50px;
+}
+
+.map {
+	float: left;
+}
+
+.phone {
    float: left;
-   margin-top: -4px;
+   margin-top: -20px;
+}
+
+.email2 {
+   float: left;
+   margin-top: -20px;
 }
 
 .get_a_quote_bottom {
@@ -433,10 +459,9 @@ nav a:active {
    font-size: 12px;
    color: #666d89;
    padding: 33px 40px 0 40px;
-
 }
 
 .social_footer {
 	float: right;
-	margin-top: -10px;
+	margin-top: -15px;
 }
